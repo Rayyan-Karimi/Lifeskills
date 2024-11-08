@@ -1,19 +1,19 @@
 # Browser Rendering
 
 ## What is Browser Rendering ??
-- Browser rendering is the process of bringing code into a visually-rendered webpage.
+- Browser rendering is the process of bringing code into a visually-rendered webpage. _[1]_
 - Users do not see code in their "browsers" (Safari, Mozilla, Chrome, Brave); users see in their browsers data retrieved in a view designed by the coder. 
 
 ## How does the process of browser rendering work ??
 
-1. When a user requests a webpage, the browser gets associated HTML-CSS-JavaScript files from the server.
+1. When a user requests a webpage, the browser gets associated HTML-CSS-JavaScript files from the server. _[3]_
 2. It then parses the HTML to build a Document Object Model (DOM) and the CSS to create a CSS Object Model (CSSOM).
 3. These two models are then combined so that the content comes as desired to be shown by the designer of the content.
 4. The browser then "paints" or draws the contents onto the screen based on the render structure.
 This entire sequence is what we refer to as browser rendering.
 
 ## What rendering engines are used in different browsers ??
-Various browsers use different rendering engines:
+Various browsers use different rendering engines: _[2]_
 
 - Internet Explorer: Trident
 - Firefox: Gecko
@@ -27,10 +27,10 @@ Various browsers use different rendering engines:
 - Layout (Reflow): The rendering engine assigns each node in the render tree exact coordinates to determine its placement on the screen.
 - Painting: The render tree is then traversed, and each node is painted onto the screen using the browser's UI backend layer.
 - This process happens progressively. For a smoother user experience, browsers attempt to display content on the screen as quickly as possible rather than waiting for the entire HTML file to be parsed.
--  As a result, portions of the page are displayed as they become ready, allowing rendering to continue while the remaining content is fetched from the network.
+-  As a result, portions of the page are displayed as they become ready, allowing rendering to continue while the remaining content is fetched from the network. _[3]_
 
 ## References
-1. [Quora](https://www.quora.com/What-is-Browser-Rendering)
-2. [GeeksForGeeks](https://www.geeksforgeeks.org/rendering-engines-used-by-different-web-browsers/)
-3. [LogRocket blog](https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/)
-4. [Lambda-Test](https://www.lambdatest.com/learning-hub/rendering-engines)
+[1] [Quora](https://www.quora.com/What-is-Browser-Rendering)
+[2] [GeeksForGeeks](https://www.geeksforgeeks.org/rendering-engines-used-by-different-web-browsers/)
+[3] [LogRocket blog](https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/)
+[4] [Lambda-Test](https://www.lambdatest.com/learning-hub/rendering-engines)
