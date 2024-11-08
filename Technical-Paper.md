@@ -30,7 +30,7 @@ Various browsers use different rendering engines:
 -  As a result, portions of the page are displayed as they become ready, allowing rendering to continue while the remaining content is fetched from the network.
 
 ## References
-1. Google
-2. Quora
-3. LogRocket blog
-4. Medium
+1. [Quora](https://www.quora.com/What-is-Browser-Rendering)
+2. [GeeksForGeeks](https://www.geeksforgeeks.org/rendering-engines-used-by-different-web-browsers/)
+3. [LogRocket blog](https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/)
+4. [Lambda-Test](https://www.lambdatest.com/learning-hub/rendering-engines)
